@@ -1,0 +1,37 @@
+.container{
+    color: #fff;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input{
+    margin: 30px 0px;
+}
+
+.video_container{
+    width: 50vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+
+.btn{
+    width: 100%;
+    background-color: transparent !important;
+    border:  2px solid rgb(255, 97, 12) !important;
+    color: #fff !important;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.videoContainer{
+ margin: auto;
+ padding-top: 10px;
+ padding-bottom: 30px;
+}
+
+.btn:hover{
+    background-color: transparent !important;
+    color: #fff !important;
+}

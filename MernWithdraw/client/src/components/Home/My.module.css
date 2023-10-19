@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+.textlogo{
+  color: rgb(255 97 12);
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.img {
+  width: 280px;
+  object-fit: contain;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.box_container {
+  height: auto;
+  width: 50vw;
+  border: 1px solid gray;
+  /* background-color: #fff; */
+}
+
+.mainContainerBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.icon {
+  font-size: 5rem;
+  color: rgb(255, 97, 12) !important;
+}
+
+.box1 {
+  margin: 5px 10px;
+  flex: 1;
+  height: 200px;
+  width: 150px;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.box1 div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box1 div p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.box2 {
+  position: relative;
+  margin: 5px 10px;
+  flex: 1;
+  gap: 20px;
+  height: 200px;
+  width: 150px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.box2 div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box2 div p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* .icon_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.icon_container1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+  /* margin: 50px 0px; */
+
+/* .icon_container1 div {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  
+  }
+
+  .icon_container1 div p {
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+
+
+.icon {
+  font-size: 5rem;
+  color: rgb(255, 97, 12) !important;
+}
+
+.icon1 {
+  font-size: 6rem;
+  color: rgb(255, 97, 12) !important;
+}
+
+.icon_container div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon_container div p {
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}  */

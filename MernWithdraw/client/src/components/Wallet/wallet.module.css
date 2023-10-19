@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+.textlogo{
+  color: rgb(255 97 12);
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container img {
+  width: 350px;
+}
+
+.box1 {
+  border: 3px solid rgb(255 97 12);
+  color: #fff;
+  font-weight: bold;
+  width: 30vw;
+  height: 5vh;
+  margin: 10px 0px;
+}
+
+.box1 p {
+  text-align: center;
+  line-height: 36px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: rgb(255, 97, 12);
+  width: 30vw;
+  height: 7vh;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+
+.lineContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* gap: 80px; */
+ margin: 40px 0px;
+ border-top: 3px solid rgb(255, 97, 12);
+ border-bottom: 3px solid rgb(255, 97, 12);
+ border-left: 3px solid rgb(255, 97, 12);
+ /* border-right: 3px solid rgb(255, 97, 12); */
+}
+
+.lineContainer div p{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lineContainer div{
+  padding: 10px;
+  border-right: 3px solid rgb(255, 97, 12);
+  width: 150px;
+}

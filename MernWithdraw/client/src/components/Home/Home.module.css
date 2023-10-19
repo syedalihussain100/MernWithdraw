@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  background-color: black !important;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container img {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.textlogo{
+  color: rgb(255 97 12);
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container_box {
+  border: 3px solid rgb(255 97 12);
+  width: 40vw;
+  height: auto;
+}
+
+.container_box1 {
+  border: 3px solid rgb(255 97 12);
+  width: 40vw;
+  height: auto;
+  margin-top: 20px;
+}
+
+.form_container {
+  border: 3px solid rgb(255 97 12);
+  width: 40vw;
+  margin: 20px 0px;
+  color: #fff;
+}
+
+.form_container form {
+  margin: 0px 20px;
+}
+
+.form_container p {
+  text-align: left;
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 10px 10px;
+}
+
+.form_container .in {
+  margin: 20px 0px;
+  padding: 30px;
+}
+
+.form_container form input::placeholder {
+  font-size: 1.4rem;
+}
+
+.form_container form input[type="file"] {
+  padding-bottom: 40px;
+  padding-top: 30px;
+  margin: 20px 0px;
+}
+
+.container_box1 p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.container_box p {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 40px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.easy {
+  border-bottom: 3px solid rgb(255 97 12);
+  border-left: 3px solid rgb(255 97 12);
+  border-right: 3px solid rgb(255 97 12);
+  padding: 15px;
+  color: white;
+  width: 150px;
+  margin: auto;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btn {
+  width: 30vw;
+  margin-bottom: 30px !important;
+  background-color: rgb(255 97 12) !important;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  padding: 30px !important;
+}
+
+.btn:hover {
+  background-color: rgb(255 97 12) !important;
+}
+
+
+.lgbtn{
+  background-color: transparent !important;
+  color: #fff !important;
+  font-size: 1.8rem !important;
+  margin: 40px 0px !important;
+  letter-spacing: 1px !important;
+}
+
+.lgbtn:hover{
+  background-color: transparent !important;
+}
+
+
+.alert{
+  color: red;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}

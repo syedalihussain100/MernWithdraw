@@ -1,0 +1,19 @@
+.container{
+    color: #fff !important;
+}
+
+.containerth{
+    color: #fff !important;
+}
+
+.tableContainer{
+    width: 80vw;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.team{
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+}
