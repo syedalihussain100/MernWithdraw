@@ -16,7 +16,7 @@ const inviteSchema = new mongoose.Schema({
     token: {
         type: String, // This should be a unique token generated for the invite
     },
-    // Add any other fields you need
+    
 });
 
 const InviteModel = mongoose.model('Invite', inviteSchema);
